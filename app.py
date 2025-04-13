@@ -2,8 +2,11 @@ from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from bson import ObjectId
 from bot.chat import get_response
+from flask_cors import CORS 
 
 app = Flask(__name__)
+
+CORS(app, resources={r"/apiV1/*": {"origins": "http://localhost"}})
 
 client = MongoClient('mongodb://localhost:27017/')
 db = client['chatbot_db']
