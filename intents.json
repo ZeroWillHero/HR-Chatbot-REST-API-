@@ -1,93 +1,93 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hello",
-        "Good morning",
-        "Good afternoon"
-      ],
-      "responses": [
-        "Hello and welcome!",
-        "Hi there, how can I help you with your HR queries?"
-      ]
-    },
-    {
-      "tag": "training_schedule",
-      "patterns": [
-        "When is my training?",
-        "What is the training schedule?",
-        "Tell me about the training sessions",
-        "When does training start?"
-      ],
-      "responses": [
-        "The training sessions start at 9 AM daily and run until 5 PM. Please check your email for your personalized schedule.",
-        "Training sessions are scheduled daily from 9 AM to 5 PM. Your manager will share the detailed schedule soon."
-      ]
-    },
-    {
-      "tag": "training_content",
-      "patterns": [
-        "What topics will be covered in training?",
-        "What will I learn during the training?",
-        "Tell me about the training curriculum"
-      ],
-      "responses": [
-        "The training curriculum includes an introduction to company policies, role-specific tasks, and soft skills development.",
-        "You will learn about company operations, your role responsibilities, and professional development topics."
-      ]
-    },
-    {
-      "tag": "benefits",
-      "patterns": [
-        "What benefits do I get?",
-        "Tell me about employee benefits",
-        "Do trainees get benefits?",
-        "What are my benefits?"
-      ],
-      "responses": [
-        "Our benefits include health insurance, paid time off, and retirement plans. More details will be provided during your orientation.",
-        "As a new trainee, you are eligible for a range of benefits such as health coverage and transportation stipend. Please refer to the HR handbook for complete details."
-      ]
-    },
-    {
-      "tag": "company_policy",
-      "patterns": [
-        "What is the leave policy?",
-        "Tell me about company policies",
-        "How many leave days do I have?",
-        "What are the HR policies?"
-      ],
-      "responses": [
-        "Our leave policy allows 20 paid leave days annually. For more details, please refer to the HR policy document.",
-        "You can take up to 20 days of paid leave per year. Additional policies are available on the company intranet."
-      ]
-    },
-    {
-      "tag": "contact_hr",
-      "patterns": [
-        "How do I contact HR?",
-        "I need to speak to HR",
-        "Who can I talk to about HR issues?",
-        "Connect me to HR"
-      ],
-      "responses": [
-        "You can reach HR via email at hr@company.com or call us on extension 123.",
-        "Contact HR by sending an email to hr@company.com. You may also call extension 123 for immediate assistance."
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "Goodbye",
-        "See you later"
-      ],
-      "responses": [
-        "Goodbye! Feel free to reach out if you have more questions.",
-        "See you later. Have a great day ahead!"
-      ]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello and welcome!",
+                "Hi there, how can I help you with your HR queries?"
+            ]
+        },
+        {
+            "tag": "training_schedule",
+            "patterns": [
+                "When is my training?",
+                "What is the training schedule?",
+                "Tell me about the training sessions",
+                "When does training start?"
+            ],
+            "responses": [
+                "The training sessions start at 9 AM daily and run until 5 PM. Please check your email for your personalized schedule.",
+                "Training sessions are scheduled daily from 9 AM to 5 PM. Your manager will share the detailed schedule soon."
+            ]
+        },
+        {
+            "tag": "training_content",
+            "patterns": [
+                "What topics will be covered in training?",
+                "What will I learn during the training?",
+                "Tell me about the training curriculum"
+            ],
+            "responses": [
+                "The training curriculum includes an introduction to company policies, role-specific tasks, and soft skills development.",
+                "You will learn about company operations, your role responsibilities, and professional development topics."
+            ]
+        },
+        {
+            "tag": "benefits",
+            "patterns": [
+                "What benefits do I get?",
+                "Tell me about employee benefits",
+                "Do trainees get benefits?",
+                "What are my benefits?"
+            ],
+            "responses": [
+                "Our benefits include health insurance, paid time off, and retirement plans. More details will be provided during your orientation.",
+                "As a new trainee, you are eligible for a range of benefits such as health coverage and transportation stipend. Please refer to the HR handbook for complete details."
+            ]
+        },
+        {
+            "tag": "company_policy",
+            "patterns": [
+                "What is the leave policy?",
+                "Tell me about company policies",
+                "How many leave days do I have?",
+                "What are the HR policies?"
+            ],
+            "responses": [
+                "Our leave policy allows 20 paid leave days annually. For more details, please refer to the HR policy document.",
+                "You can take up to 20 days of paid leave per year. Additional policies are available on the company intranet."
+            ]
+        },
+        {
+            "tag": "contact_hr",
+            "patterns": [
+                "How do I contact HR?",
+                "I need to speak to HR",
+                "Who can I talk to about HR issues?",
+                "Connect me to HR"
+            ],
+            "responses": [
+                "You can reach HR via email at hr@company.com or call us on extension 123.",
+                "Contact HR by sending an email to hr@company.com. You may also call extension 123 for immediate assistance."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later"
+            ],
+            "responses": [
+                "Goodbye! Feel free to reach out if you have more questions.",
+                "See you later. Have a great day ahead!"
+            ]
+        }
+    ]
 }
